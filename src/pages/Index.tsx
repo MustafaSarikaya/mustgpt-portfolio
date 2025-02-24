@@ -1,7 +1,8 @@
 
 import { useState } from 'react';
-import { Search, Mic, Calendar } from 'lucide-react';
+import { Search, Mic, Calendar, Grid, Github, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const SearchBox = ({ onFocus }: { onFocus: () => void }) => (
   <div className="relative w-full max-w-2xl">
@@ -41,14 +42,42 @@ const TrendingSearches = () => (
   </div>
 );
 
+const Navigation = () => (
+  <nav className="absolute top-0 left-0 right-0 p-4">
+    <div className="container mx-auto flex justify-between items-center">
+      <Link to="/about" className="text-black font-semibold text-lg hover:text-accent transition-colors">
+        John Doe
+      </Link>
+      <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4">
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" 
+             className="text-gray-600 hover:text-accent transition-colors">
+            <Github className="w-6 h-6" />
+          </a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+             className="text-gray-600 hover:text-accent transition-colors">
+            <Linkedin className="w-6 h-6" />
+          </a>
+          <Grid className="w-6 h-6 text-gray-600" />
+        </div>
+        <Avatar className="w-10 h-10">
+          <AvatarImage src="/placeholder.svg" alt="Profile" />
+          <AvatarFallback>JD</AvatarFallback>
+        </Avatar>
+      </div>
+    </div>
+  </nav>
+);
+
 const Index = () => {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-primary to-white">
+      <Navigation />
       <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col items-center justify-center gap-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-accent animate-fade-in">
+        <div className="flex flex-col items-center justify-center gap-8 mt-16">
+          <h1 className="text-5xl md:text-6xl font-bold text-black animate-fade-in">
             Portfolio Search
           </h1>
           <div className="w-full max-w-2xl relative">
