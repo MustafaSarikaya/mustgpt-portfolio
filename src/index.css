@@ -5,7 +5,7 @@
 
 @layer base {
   body {
-    @apply bg-primary text-accent antialiased;
+    @apply bg-primary text-secondary antialiased;
   }
 }
 
