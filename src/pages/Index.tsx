@@ -35,9 +35,7 @@ const TrendingSearches = () => <div className="absolute top-full left-0 right-0 
   </div>;
 const Navigation = () => <nav className="absolute top-0 left-0 right-0 p-4">
     <div className="container mx-auto flex justify-between items-center">
-      <Link to="/about" className="text-black font-semibold text-lg hover:text-accent transition-colors">
-        John Doe
-      </Link>
+      <Link to="/about" className="text-black font-semibold text-lg hover:text-accent transition-colors">About</Link>
       <div className="flex items-center gap-6">
         <div className="flex items-center gap-4">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent transition-colors">
