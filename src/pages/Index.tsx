@@ -38,10 +38,10 @@ const Navigation = () => <nav className="absolute top-0 left-0 right-0 p-4">
       <Link to="/about" className="text-black font-semibold text-lg hover:text-accent transition-colors">About</Link>
       <div className="flex items-center gap-6">
         <div className="flex items-center gap-4">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent transition-colors">
+          <a href="https://github.com/MustafaSarikaya" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent transition-colors">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent transition-colors">
+          <a href="https://linkedin.com/in/mustafa-sarikaya" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent transition-colors">
             <Linkedin className="w-6 h-6" />
           </a>
           <Grid className="w-6 h-6 text-gray-600" />
