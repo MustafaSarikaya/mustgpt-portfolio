@@ -1,13 +1,12 @@
-
 import { Link } from 'react-router-dom';
+import { SafeArea } from '../components/SafeArea';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary to-white p-8">
-      <div className="max-w-4xl mx-auto">
-        <Link to="/" className="text-accent hover:text-accent-light mb-8 inline-block">
-          ← Back to Search
-        </Link>
+    <SafeArea className="bg-gradient-to-b from-primary to-white">
+      <div className="p-8">
+        
+
         <h1 className="text-4xl font-bold text-black mb-8">About Me</h1>
         <div className="glass p-8">
           <p className="text-lg mb-6">
@@ -20,7 +19,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </SafeArea>
   );
 };
 

@@ -1,6 +1,6 @@
-
 import { Link } from 'react-router-dom';
 import { Calendar } from 'lucide-react';
+import { SafeArea } from '../components/SafeArea';
 
 const Events = () => {
   const events = [
@@ -19,11 +19,8 @@ const Events = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary to-white p-8">
-      <div className="max-w-4xl mx-auto">
-        <Link to="/" className="text-accent hover:text-accent-light mb-8 inline-block">
-          ← Back to Search
-        </Link>
+    <SafeArea className="bg-gradient-to-b from-primary to-white">
+      <div className="p-8">
         <h1 className="text-4xl font-bold text-black mb-8">Events & Talks</h1>
         <div className="grid gap-6">
           {events.map((event, index) => (
@@ -41,7 +38,7 @@ const Events = () => {
           ))}
         </div>
       </div>
-    </div>
+    </SafeArea>
   );
 };
 
