@@ -1,43 +1,31 @@
 import { Link } from 'react-router-dom';
 import { Calendar } from 'lucide-react';
 import { SafeArea } from '../components/SafeArea';
+import { ChatFlow } from './../components/ChatFlow';
+import { Card } from './../components/Card';
+import { CardItems } from './../types/CardItems';
 
 const Events = () => {
-  const events = [
+  const events : CardItems[] = [
     {
       title: "Tech Conference 2024",
-      date: "March 15, 2024",
       description: "Speaking about Modern React Development Patterns",
-      location: "San Francisco, CA",
+      tag: ["March 15, 2024", "San Francisco, CA"],
+      image: "https://via.placeholder.com/150x150"
     },
     {
       title: "Web Development Workshop",
-      date: "April 20, 2024",
       description: "Hosting a workshop on TypeScript and React",
-      location: "Online",
+      tag: ["April 20, 2024", "San Francisco, CA"],
+      image: "https://via.placeholder.com/150x150"
     },
   ];
 
   return (
     <SafeArea className="bg-gradient-to-b from-primary to-white">
-      <div className="p-8">
-        <h1 className="text-4xl font-bold text-black mb-8">Events & Talks</h1>
-        <div className="grid gap-6">
-          {events.map((event, index) => (
-            <div key={index} className="glass p-6 hover-scale">
-              <div className="flex items-start gap-4">
-                <Calendar className="w-6 h-6 text-accent" />
-                <div>
-                  <h2 className="text-2xl font-semibold text-black mb-2">{event.title}</h2>
-                  <p className="text-accent mb-2">{event.date}</p>
-                  <p className="text-secondary mb-2">{event.description}</p>
-                  <p className="text-secondary/80">{event.location}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+      <ChatFlow title = "What events and activities Mustafa joined recently?"> 
+        <Card items={events}  />
+      </ChatFlow>
     </SafeArea>
   );
 };

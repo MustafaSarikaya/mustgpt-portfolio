@@ -5,7 +5,7 @@ import { Github, Linkedin, Grid } from 'lucide-react';
 import { SidebarTrigger } from "@/components/ui/sidebar";
 
 const Navigation = () => {
-return (<nav className="top-0 left-0 right-0 p-6 bg-primary">
+return (<nav className="top-0 left-0 right-0 pt-6 pb-2 px-6 bg-primary">
     <div className="container mx-auto flex justify-between items-center">
     <div className="flex items-center gap-6">
     <SidebarTrigger  />

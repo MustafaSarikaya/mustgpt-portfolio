@@ -1,14 +1,11 @@
-import { Link } from 'react-router-dom';
+import { ChatFlow } from '../components/ChatFlow';
 import { SafeArea } from '../components/SafeArea';
 
 const About = () => {
   return (
     <SafeArea className="bg-gradient-to-b from-primary to-white">
-      <div className="p-8">
-        
-
-        <h1 className="text-4xl font-bold text-black mb-8">About Me</h1>
-        <div className="glass p-8">
+      <ChatFlow title="About Me">
+        <div >
           <p className="text-lg mb-6">
             Hi, I'm John Doe, a passionate software engineer with expertise in web development
             and a love for creating intuitive user experiences.
@@ -18,7 +15,7 @@ const About = () => {
             to build performant and accessible applications.
           </p>
         </div>
-      </div>
+      </ChatFlow>
     </SafeArea>
   );
 };
