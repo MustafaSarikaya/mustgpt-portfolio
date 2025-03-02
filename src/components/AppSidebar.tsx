@@ -2,21 +2,22 @@ import React from "react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupLabel, SidebarMenuItem, SidebarMenuButton, SidebarMenu } from "../components/ui/sidebar";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { getText } from '../utils/dictionary';
 
 export function AppSidebar() {
     const location = useLocation();
 
     const testimonials = [
         {
-            title: "How did MustGPT help transform our startup?",
+            title: getText('pages.testimonials.one.title'),
             path: "/testimonials/one",
         },
         {
-            title: "Can Mustafa really understand my business needs?",
+            title: getText('pages.testimonials.two.title'),
             path: "/testimonials/two",
         },
         {
-            title: "Is Mustafa suitable for enterprise-scale projects?",
+            title: getText('pages.testimonials.three.title'),
             path: "/testimonials/three",
         },
     ];
@@ -24,7 +25,7 @@ export function AppSidebar() {
     return <Sidebar className="border-none">
         <SidebarContent className="min-w-15vw bg-primary-dark">
             <SidebarGroup>
-                <SidebarGroupLabel>Previous Conversations</SidebarGroupLabel>
+                <SidebarGroupLabel>{getText('components.sidebar.label')}</SidebarGroupLabel>
                 <SidebarMenu>
                     {testimonials.map((item, index) => 
                     <SidebarMenuItem key={index} className="block m-1">
@@ -40,6 +41,5 @@ export function AppSidebar() {
         </SidebarContent>
     </Sidebar>;
 }
-
 
 export default AppSidebar;

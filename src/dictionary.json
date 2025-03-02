@@ -1,0 +1,118 @@
+{
+  "navigation": {
+    "brand": "MustGPT",
+    "links": {
+      "github": "https://github.com/MustafaSarikaya",
+      "linkedin": "https://linkedin.com/in/mustafa-sarikaya"
+    },
+    "avatar": {
+      "alt": "Profile",
+      "fallback": "MS"
+    }
+  },
+  "footer": {
+    "copyright": " {currentYear} Mustafa Sarikaya. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Me",
+      "content": {
+        "intro": "Hi, I'm John Doe, a passionate software engineer with expertise in web development and a love for creating intuitive user experiences.",
+        "expertise": "I specialize in React, TypeScript, and modern web technologies, always striving to build performant and accessible applications."
+      }
+    },
+    "events": {
+      "title": "What events and activities Mustafa joined recently?",
+      "items": [
+        {
+          "title": "Tech Conference 2024",
+          "description": "Speaking about Modern React Development Patterns",
+          "tag": ["March 15, 2024", "San Francisco, CA"]
+        },
+        {
+          "title": "Web Development Workshop",
+          "description": "Hosting a workshop on TypeScript and React",
+          "tag": ["April 20, 2024", "San Francisco, CA"]
+        }
+      ]
+    },
+    "projects": {
+      "title": "What projects Mustafa worked on recently?",
+      "items": [
+        {
+          "title": "Project One",
+          "description": "A React-based web application for task management",
+          "tag": ["React", "TypeScript", "Tailwind CSS"]
+        },
+        {
+          "title": "Project The Second",
+          "description": "Real-time chat application with WebSocket integration",
+          "tag": ["Next.js", "Socket.io", "PostgreSQL"]
+        }
+      ]
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Oops! Page not found",
+      "link": "Return to Home"
+    },
+    "testimonials": {
+      "one": {
+        "title": "How did Mustafa help transform our startup?",
+        "mainQuote": "Working with MustGPT was a game-changer for our AI startup. Their deep understanding of both technical and business aspects helped us navigate complex challenges and implement cutting-edge solutions.",
+        "highlightedQuote": "The most impressive aspect was their ability to translate complex technical concepts into practical, implementable solutions. They weren't just a service provider; they became a true partner in our success.",
+        "author": {
+          "name": "Sarah Chen",
+          "title": "CTO, AI Innovations Inc."
+        }
+      },
+      "two": {
+        "title": "Can Mustafa really understand my business needs?",
+        "mainQuote": "I was skeptical about AI solutions at first, but MustGPT completely changed my perspective. Their approach to understanding our unique business challenges and providing tailored solutions was exceptional.",
+        "highlightedQuote": "What stood out was their commitment to delivering not just a technical solution, but one that actually solved our business problems. The results speak for themselves - 40% increase in efficiency!",
+        "author": {
+          "name": "Michael Rodriguez",
+          "title": "Operations Director, TechFlow Solutions"
+        }
+      },
+      "three": {
+        "title": "Is Mustafa suitable for enterprise-scale projects?",
+        "mainQuote": "As a Fortune 500 company, we needed an AI solution that could scale with our enterprise needs. MustGPT not only met but exceeded our expectations with their enterprise-grade implementation.",
+        "highlightedQuote": "Their expertise in handling large-scale deployments and ability to integrate with our existing systems made the transition seamless. The ROI we've seen is remarkable.",
+        "author": {
+          "name": "James Wilson",
+          "title": "Enterprise Architect, Global Tech Industries"
+        }
+      }
+    }
+  },
+  "components": {
+    "searchBox": {
+      "placeholder": "Ask MustGPT..."
+    },
+    "trendingSearches": {
+      "title": "Trending searches",
+      "items": [
+        {
+          "text": "About Me",
+          "path": "/about"
+        },
+        {
+          "text": "Recent Projects",
+          "path": "/projects"
+        },
+        {
+          "text": "Events & Talks",
+          "path": "/events"
+        }
+      ]
+    },
+    "sidebar": {
+      "label": "Previous Conversations"
+    }
+  }
+}
