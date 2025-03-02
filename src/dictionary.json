@@ -21,29 +21,14 @@
     "about": {
       "title": "About Me",
       "content": {
-<<<<<<< Updated upstream
-        "intro": "Hi, I'm John Doe, a passionate software engineer with expertise in web development and a love for creating intuitive user experiences.",
-        "expertise": "I specialize in React, TypeScript, and modern web technologies, always striving to build performant and accessible applications."
-=======
         "intro": "Hi there! I'm Mustafa, a newly graduated software engineer on a journey to transform ideas into impactful solutions that improve lives. My career so far has been an adventure filled with innovation, problem-solving, and a relentless drive to make technology work for people.",
         "expertise": "I specialize in .Net Core, Spring Boot, RabbitMQ, and modern web technologies. From designing microservices architecture to leading teams in building cutting-edge solutions, I'm passionate about creating systems that empower users and solve real-world challenges."
->>>>>>> Stashed changes
       }
     },
     "events": {
       "title": "What events and activities Mustafa joined recently?",
       "items": [
         {
-<<<<<<< Updated upstream
-          "title": "Tech Conference 2024",
-          "description": "Speaking about Modern React Development Patterns",
-          "tag": ["March 15, 2024", "San Francisco, CA"]
-        },
-        {
-          "title": "Web Development Workshop",
-          "description": "Hosting a workshop on TypeScript and React",
-          "tag": ["April 20, 2024", "San Francisco, CA"]
-=======
           "title": "Velocity Computing",
           "description": "Started as a Software Engineer, bringing fresh perspectives and technical expertise to innovative projects",
           "tag": ["February 2025 - Present", "Newmarket, Ontario"]
@@ -57,7 +42,6 @@
           "title": "uOttawa TI | IT - Mobile Application Developer",
           "description": "Enhanced user interface with React Native and Redux, improved API components and database performance, implemented CI/CD pipeline",
           "tag": ["May 2023 - May 2024", "Ottawa, Ontario"]
->>>>>>> Stashed changes
         }
       ]
     },
@@ -65,16 +49,6 @@
       "title": "What projects Mustafa worked on recently?",
       "items": [
         {
-<<<<<<< Updated upstream
-          "title": "Project One",
-          "description": "A React-based web application for task management",
-          "tag": ["React", "TypeScript", "Tailwind CSS"]
-        },
-        {
-          "title": "Project The Second",
-          "description": "Real-time chat application with WebSocket integration",
-          "tag": ["Next.js", "Socket.io", "PostgreSQL"]
-=======
           "title": "Adversarial Evasive PDF Generator",
           "description": "Led development of an automated PDF generator for testing ML-based phishing detection systems. Implemented Docker-based pipeline with Elastic EDR for automated payload testing",
           "tag": ["Docker", "ML", "Security", "Team Leadership"]
@@ -88,7 +62,6 @@
           "title": "Real-Time Digital Alarm System",
           "description": "Developed embedded system using Nucleo-F446RE and FreeRTOS, featuring keypad interface, OLED display, and optimized task management",
           "tag": ["C", "FreeRTOS", "Embedded Systems"]
->>>>>>> Stashed changes
         }
       ]
     },
@@ -99,32 +72,6 @@
     },
     "testimonials": {
       "one": {
-<<<<<<< Updated upstream
-        "title": "How did Mustafa help transform our startup?",
-        "mainQuote": "Working with MustGPT was a game-changer for our AI startup. Their deep understanding of both technical and business aspects helped us navigate complex challenges and implement cutting-edge solutions.",
-        "highlightedQuote": "The most impressive aspect was their ability to translate complex technical concepts into practical, implementable solutions. They weren't just a service provider; they became a true partner in our success.",
-        "author": {
-          "name": "Sarah Chen",
-          "title": "CTO, AI Innovations Inc."
-        }
-      },
-      "two": {
-        "title": "Can Mustafa really understand my business needs?",
-        "mainQuote": "I was skeptical about AI solutions at first, but MustGPT completely changed my perspective. Their approach to understanding our unique business challenges and providing tailored solutions was exceptional.",
-        "highlightedQuote": "What stood out was their commitment to delivering not just a technical solution, but one that actually solved our business problems. The results speak for themselves - 40% increase in efficiency!",
-        "author": {
-          "name": "Michael Rodriguez",
-          "title": "Operations Director, TechFlow Solutions"
-        }
-      },
-      "three": {
-        "title": "Is Mustafa suitable for enterprise-scale projects?",
-        "mainQuote": "As a Fortune 500 company, we needed an AI solution that could scale with our enterprise needs. MustGPT not only met but exceeded our expectations with their enterprise-grade implementation.",
-        "highlightedQuote": "Their expertise in handling large-scale deployments and ability to integrate with our existing systems made the transition seamless. The ROI we've seen is remarkable.",
-        "author": {
-          "name": "James Wilson",
-          "title": "Enterprise Architect, Global Tech Industries"
-=======
         "title": "Academic Excellence and Leadership",
         "mainQuote": "Led development teams in multiple successful projects, demonstrating strong technical and leadership capabilities in software engineering",
         "highlightedQuote": "Came first and won $5k in a week-long entrepreneurship competition with a team of 5 among 6 teams",
@@ -149,7 +96,6 @@
         "author": {
           "name": "Mobile Development Team",
           "title": "uOttawa TI | IT"
->>>>>>> Stashed changes
         }
       }
     }
