@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -54,16 +53,48 @@ export default {
   			},
   			'slide-in': {
   				'0%': {
-  					transform: 'translateX(-100%)'
+  					transform: 'translateX(-5%)'
   				},
   				'100%': {
   					transform: 'translateX(0)'
   				}
-  			}
+  			},
+        'typing': {
+          '0%': {
+            width: '0'
+          },
+          '100%': {
+            width: '100%'
+          }
+        },
+        'content-fade': {
+          '0%': {
+            opacity: '0'
+          },
+          '50%': {
+            opacity: '0'
+          },
+          '100%': {
+            opacity: '1'
+          }
+        },
+        'content-typing': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(1rem)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          }
+        }
   		},
   		animation: {
   			'fade-in': 'fade-in 0.5s ease-out',
-  			'slide-in': 'slide-in 0.5s ease-out'
+  			'slide-in': 'slide-in 0.5s ease-out',
+        'typing': 'typing 1s ease-out forwards',
+        'content-fade-in': 'content-fade 1.5s ease-out forwards',
+        'content-type': 'content-typing 1s ease-out forwards'
   		}
   	}
   },
