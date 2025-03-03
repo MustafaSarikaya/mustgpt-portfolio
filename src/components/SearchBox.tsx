@@ -1,5 +1,6 @@
 import { Search, Mic, Calendar } from 'lucide-react';
 import { useState } from 'react';
+import { getText } from '../utils/dictionary';
 
 interface SearchBoxProps {
   children?: React.ReactNode;
@@ -15,7 +16,7 @@ export const SearchBox = ({ children, width = 'full' }: SearchBoxProps) => {
         <Search className="w-5 h-5 text-gray-400" />
         <input 
           type="text" 
-          placeholder="Ask MustGPT..." 
+          placeholder={getText('components.searchBox.placeholder')}
           className="flex-1 bg-transparent outline-none text-gray-800" 
           onFocus={() => setIsSearchFocused(true)}
           onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}

@@ -1,0 +1,129 @@
+{
+  "navigation": {
+    "brand": "MustGPT",
+    "links": {
+      "github": "https://github.com/MustafaSarikaya",
+      "linkedin": "https://linkedin.com/in/mustafa-sarikaya"
+    },
+    "avatar": {
+      "alt": "Profile",
+      "fallback": "MS"
+    }
+  },
+  "footer": {
+    "copyright": "{currentYear} Mustafa Sarikaya.",
+    "allRightsReserved": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
+  },
+  "pages": {
+    "about": {
+      "title": "About Me",
+      "content": {
+        "intro": "Hi there! I'm Mustafa, a newly graduated software engineer on a journey to transform ideas into impactful solutions that improve lives. My career so far has been an adventure filled with innovation, problem-solving, and a relentless drive to make technology work for people.",
+        "expertise": "I specialize in .Net Core, Spring Boot, RabbitMQ, and modern web technologies. From designing microservices architecture to leading teams in building cutting-edge solutions, I'm passionate about creating systems that empower users and solve real-world challenges."
+      }
+    },
+    "events": {
+      "title": "What events and activities Mustafa joined recently?",
+      "items": [
+        {
+          "title": "Velocity Computing",
+          "description": "Started as a Software Engineer, bringing fresh perspectives and technical expertise to innovative projects",
+          "tag": ["February 2025 - Present", "Newmarket, Ontario"]
+        },
+        {
+          "title": "uOttawa TI | IT - Automation Developer / SOC analyst",
+          "description": "Developed automations with Node.Js, Powershell and MS Graph APIs, streamlining incident response procedures. Conducted analysis of 500+ security logs and redesigned identity-protection workflow, increasing threat detection efficiency by 50%",
+          "tag": ["May 2024 - December 2024", "Ottawa, Ontario"]
+        },
+        {
+          "title": "uOttawa TI | IT - Mobile Application Developer",
+          "description": "Enhanced user interface with React Native and Redux, improved API components and database performance, implemented CI/CD pipeline",
+          "tag": ["May 2023 - May 2024", "Ottawa, Ontario"]
+        }
+      ]
+    },
+    "projects": {
+      "title": "What projects Mustafa worked on recently?",
+      "items": [
+        {
+          "title": "Adversarial Evasive PDF Generator",
+          "description": "Led development of an automated PDF generator for testing ML-based phishing detection systems. Implemented Docker-based pipeline with Elastic EDR for automated payload testing",
+          "tag": ["Docker", "ML", "Security", "Team Leadership"]
+        },
+        {
+          "title": "Enhanced Data Processing with Microservices",
+          "description": "Developed optimized data workflow using .NET microservices, implemented messaging systems (HTTP, gRPC, RabbitMQ), and integrated API Gateway for enhanced security and performance",
+          "tag": ["C#", ".NET", "Kubernetes", "Microservices"]
+        },
+        {
+          "title": "Real-Time Digital Alarm System",
+          "description": "Developed embedded system using Nucleo-F446RE and FreeRTOS, featuring keypad interface, OLED display, and optimized task management",
+          "tag": ["C", "FreeRTOS", "Embedded Systems"]
+        }
+      ]
+    },
+    "notFound": {
+      "title": "404",
+      "message": "Oops! Page not found",
+      "link": "Return to Home"
+    },
+    "testimonials": {
+      "one": {
+        "title": "Academic Excellence and Leadership",
+        "mainQuote": "Led development teams in multiple successful projects, demonstrating strong technical and leadership capabilities in software engineering",
+        "highlightedQuote": "Came first and won $5k in a week-long entrepreneurship competition with a team of 5 among 6 teams",
+        "author": {
+          "name": "University of Ottawa",
+          "title": "Bachelor of Applied Science - Software Engineering"
+        }
+      },
+      "two": {
+        "title": "Innovation in Security Solutions",
+        "mainQuote": "Redesigned and automated identity-protection workflow, resulting in a 50% increase in threat detection efficiency across 600,000+ accounts",
+        "highlightedQuote": "Successfully integrated advanced security measures and automated response systems for large-scale user protection",
+        "author": {
+          "name": "uOttawa TI | IT",
+          "title": "Security Operations"
+        }
+      },
+      "three": {
+        "title": "Mobile Development Excellence",
+        "mainQuote": "Transformed user interface and core API components, achieving 40% faster interaction speeds and 50% improvement in data retrieval",
+        "highlightedQuote": "Successfully implemented complex system architecture improvements while maintaining data integrity and user experience",
+        "author": {
+          "name": "Mobile Development Team",
+          "title": "uOttawa TI | IT"
+        }
+      }
+    }
+  },
+  "components": {
+    "searchBox": {
+      "placeholder": "Ask MustGPT..."
+    },
+    "trendingSearches": {
+      "title": "Trending searches",
+      "items": [
+        {
+          "text": "About Me",
+          "path": "/about"
+        },
+        {
+          "text": "Recent Projects",
+          "path": "/projects"
+        },
+        {
+          "text": "Events & Talks",
+          "path": "/events"
+        }
+      ]
+    },
+    "sidebar": {
+      "label": "Previous Conversations"
+    }
+  }
+}
