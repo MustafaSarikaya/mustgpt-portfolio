@@ -27,9 +27,6 @@ const Layout = ({ children }: LayoutProps) => {
         <main className="flex-grow w-full">
           {children}
         </main>
-
-        {/* Footer */}
-        <Footer />
       </div>
 
     </div>
