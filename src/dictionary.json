@@ -11,7 +11,8 @@
     }
   },
   "footer": {
-    "copyright": " {currentYear} Mustafa Sarikaya. All rights reserved.",
+    "copyright": "{currentYear} Mustafa Sarikaya.",
+    "allRightsReserved": "All rights reserved.",
     "links": {
       "privacy": "Privacy Policy",
       "terms": "Terms of Use"
