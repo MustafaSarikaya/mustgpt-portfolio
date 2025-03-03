@@ -1,6 +1,3 @@
-import { Link } from 'react-router-dom';
-import { Calendar } from 'lucide-react';
-import { SafeArea } from '../components/SafeArea';
 import { ChatFlow } from './../components/ChatFlow';
 import { Card } from './../components/Card';
 import { CardItems } from './../types/CardItems';
@@ -13,11 +10,11 @@ const Events = () => {
   }));
 
   return (
-    <SafeArea className="bg-gradient-to-b from-primary to-white">
+    <div className="bg-gradient-to-b from-primary to-white">
       <ChatFlow title={getText('pages.events.title')}> 
         <Card items={events} />
       </ChatFlow>
-    </SafeArea>
+    </div>
   );
 };
 
