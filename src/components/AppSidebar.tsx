@@ -41,7 +41,7 @@ export function AppSidebar() {
             </SidebarGroup>
         </SidebarContent>
         <SidebarFooter className="m-0 p-0">
-            <Footer className="p-5"/>
+            <Footer />
         </SidebarFooter>
     </Sidebar>;
 }
