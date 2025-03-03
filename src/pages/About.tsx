@@ -1,5 +1,4 @@
 import { ChatFlow } from '../components/ChatFlow';
-import { SafeArea } from '../components/SafeArea';
 import { getText } from '../utils/dictionary';
 
 const About = () => {
