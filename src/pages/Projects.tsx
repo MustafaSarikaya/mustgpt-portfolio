@@ -1,7 +1,5 @@
 import { ChatFlow } from './../components/ChatFlow';
 import { Card } from './../components/Card';
-import { Link } from 'react-router-dom';
-import { SafeArea } from '../components/SafeArea';
 import { CardItems } from '../types/CardItems';
 import { getText } from '../utils/dictionary';
 
@@ -12,11 +10,11 @@ const Projects = () => {
   }));
 
   return (
-    <SafeArea className="bg-gradient-to-b from-primary to-white">
+    <div className="bg-gradient-to-b from-primary to-white">
       <ChatFlow title={getText('pages.projects.title')}> 
         <Card items={projects} />
       </ChatFlow>
-    </SafeArea>
+    </div>
   );
 };
 
