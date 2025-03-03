@@ -1,11 +1,9 @@
-import React from 'react';
-import { SafeArea } from '../../components/SafeArea';
 import { ChatFlow } from '../../components/ChatFlow';
 import { getText } from '../../utils/dictionary';
 
 const TestimonialOne = () => {
   return (
-    <SafeArea className="bg-gradient-to-b from-primary to-white">
+    <div className="bg-gradient-to-b from-primary to-white">
       <ChatFlow title={getText('pages.testimonials.one.title')}>
         <div className="space-y-6">
           <p className="text-lg text-gray-700">
@@ -22,7 +20,7 @@ const TestimonialOne = () => {
           </div>
         </div>
       </ChatFlow>
-    </SafeArea>
+    </div>
   );
 };
 
