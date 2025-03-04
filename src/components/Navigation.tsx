@@ -2,16 +2,19 @@ import { ReactNode } from 'react';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Grid } from 'lucide-react';
-import { SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarTrigger, useSidebar } from "@/components/ui/sidebar";
 import { getText } from '../utils/dictionary';
 
 const Navigation = () => {
+  const { state } = useSidebar();
+  const isSidebarActive = state === "expanded";
+
   return (
     <nav className="top-0 left-0 right-0 pt-6 pb-2 px-6 bg-primary">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-start">
         <div className="flex items-center gap-6">
-          <SidebarTrigger />
-          <Link to="/" className="text-black font-semibold text-lg hover:text-accent transition-colors">
+          {!isSidebarActive && <SidebarTrigger />}
+          <Link to="/" className="text-black font-semibold text-xl hover:text-accent transition-colors">
             {getText('navigation.brand')}
           </Link>
         </div>
