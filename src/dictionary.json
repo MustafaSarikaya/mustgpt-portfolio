@@ -27,7 +27,7 @@
       }
     },
     "events": {
-      "title": "What events and activities Mustafa joined recently?",
+      "title": "Recent Events",
       "items": [
         {
           "title": "Velocity Computing",
@@ -47,7 +47,7 @@
       ]
     },
     "projects": {
-      "title": "What projects Mustafa worked on recently?",
+      "title": "Projects",
       "items": [
         {
           "title": "Adversarial Evasive PDF Generator",
@@ -123,7 +123,8 @@
       ]
     },
     "sidebar": {
-      "label": "Previous Conversations"
+      "label": "Previous Conversations",
+      "portfolioLabel": "Portfolio Pages"
     }
   }
 }
