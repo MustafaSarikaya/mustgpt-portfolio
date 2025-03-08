@@ -63,6 +63,21 @@
           "title": "Real-Time Digital Alarm System",
           "description": "Developed embedded system using Nucleo-F446RE and FreeRTOS, featuring keypad interface, OLED display, and optimized task management",
           "tag": ["C", "FreeRTOS", "Embedded Systems"]
+        },
+        {
+          "title": "Adversarial Evasive PDF Generator",
+          "description": "Led development of an automated PDF generator for testing ML-based phishing detection systems. Implemented Docker-based pipeline with Elastic EDR for automated payload testing",
+          "tag": ["Docker", "ML", "Security", "Team Leadership"]
+        },
+        {
+          "title": "Enhanced Data Processing with Microservices",
+          "description": "Developed optimized data workflow using .NET microservices, implemented messaging systems (HTTP, gRPC, RabbitMQ), and integrated API Gateway for enhanced security and performance",
+          "tag": ["C#", ".NET", "Kubernetes", "Microservices"]
+        },
+        {
+          "title": "Real-Time Digital Alarm System",
+          "description": "Developed embedded system using Nucleo-F446RE and FreeRTOS, featuring keypad interface, OLED display, and optimized task management",
+          "tag": ["C", "FreeRTOS", "Embedded Systems"]
         }
       ]
     },
@@ -102,6 +117,9 @@
     }
   },
   "components": {
+    "chatFlow": {
+      "caption": "MustGPT doesn't make mistakes. Make sure it's not a feature."
+    },
     "searchBox": {
       "placeholder": "Ask MustGPT..."
     },
