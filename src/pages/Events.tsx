@@ -10,7 +10,7 @@ const Events = () => {
   }));
 
   return (
-    <div className="bg-gradient-to-b from-primary to-white">
+    <div className="bg-primary w-full">
       <ChatFlow title={getText('pages.events.title')}> 
         <Card items={events} />
       </ChatFlow>

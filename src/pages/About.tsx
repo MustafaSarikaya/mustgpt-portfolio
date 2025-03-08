@@ -3,7 +3,6 @@ import { getText } from '../utils/dictionary';
 
 const About = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-white">
       <ChatFlow title={getText('pages.about.title')}>
         <div>
           <p className="text-lg mb-6">
@@ -14,7 +13,6 @@ const About = () => {
           </p>
         </div>
       </ChatFlow>
-    </div>
   );
 };
 
