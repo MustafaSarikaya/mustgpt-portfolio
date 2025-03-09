@@ -10,11 +10,9 @@ const Projects = () => {
   }));
 
   return (
-    <div className="bg-primary w-full">
       <ChatFlow title={getText('pages.projects.title')}> 
         <Card items={projects} />
       </ChatFlow>
-    </div>
   );
 };
 

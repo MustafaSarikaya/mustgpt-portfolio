@@ -10,11 +10,9 @@ const Events = () => {
   }));
 
   return (
-    <div className="bg-primary w-full">
       <ChatFlow title={getText('pages.events.title')}> 
         <Card items={events} />
       </ChatFlow>
-    </div>
   );
 };
 

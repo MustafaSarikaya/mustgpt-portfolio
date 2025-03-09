@@ -4,7 +4,6 @@ import { getText } from '../../utils/dictionary';
 
 const TestimonialTwo = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-white">
       <ChatFlow title={getText('pages.testimonials.two.title')}>
         <div className="space-y-6">
           <p className="text-lg text-gray-700">
@@ -21,7 +20,6 @@ const TestimonialTwo = () => {
           </div>
         </div>
       </ChatFlow>
-    </div>
   );
 };
 
