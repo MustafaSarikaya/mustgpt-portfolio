@@ -118,7 +118,8 @@
   },
   "components": {
     "chatFlow": {
-      "caption": "MustGPT doesn't make mistakes. Make sure it's not a feature."
+      "caption": "MustGPT doesn't make mistakes. Make sure it's not a feature.",
+      "captionShort": "MustGPT doesn't make mistakes."
     },
     "searchBox": {
       "placeholder": "Ask MustGPT..."
