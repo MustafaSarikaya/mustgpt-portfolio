@@ -41,8 +41,7 @@ export function ChatFlow({
 
         </div>
 
-        {/* SearchBox Footer (not shown on Index page) - Fixed at bottom with dynamic width */}
-        {!isIndexPage && (
+
           <div className="fixed bottom-0 bg-primary md:w-[800px] px-2 w-full">
             <div className="flex flex-col items-center justify-center">
                 <SearchBox width="full" />
@@ -54,7 +53,7 @@ export function ChatFlow({
                 </p>
             </div>
           </div>
-        )}
+
 
       </div>;
 }
