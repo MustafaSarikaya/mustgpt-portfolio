@@ -12,7 +12,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
 
   return (
-    <div className="min-h-screen bg-white flex flex-row w-full">
+    <div className="min-h-screen bg-primary flex flex-row w-full">
       {/* Sidebar */}
       <div className="flex flex-shrink-0">
         <AppSidebar />
