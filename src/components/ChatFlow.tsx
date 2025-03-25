@@ -16,7 +16,7 @@ export function ChatFlow({
   const isIndexPage = location.pathname === "/" || location.pathname === "/index";
 
   return <div className="container mx-auto flex justify-center items-center bg-primary w-full">
-        <div className="p-2 flex flex-col items-end">
+        <div className="p-2 flex flex-col">
           {
         /* User Message */
       }
@@ -43,10 +43,15 @@ export function ChatFlow({
 
         {/* SearchBox Footer (not shown on Index page) - Fixed at bottom with dynamic width */}
         {!isIndexPage && (
-          <div className="fixed bottom-0 bg-primary md:w-[800px] sm:w-[550px] xs:px-4">
-            <div className="flex flex-col items-center justify-center mx-auto">
+          <div className="fixed bottom-0 bg-primary md:w-[800px] px-2 w-full">
+            <div className="flex flex-col items-center justify-center">
                 <SearchBox width="full" />
-                <p  className="m-1 flex text-secondary text-sm">{getText('components.chatFlow.caption')}</p>
+                <p className="m-1 flex text-center text-secondary text-sm md:hidden">
+                  {getText('components.chatFlow.captionShort')}
+                </p>
+                <p className="m-1 hidden md:flex text-center text-secondary text-sm">
+                  {getText('components.chatFlow.caption')}
+                </p>
             </div>
           </div>
         )}
