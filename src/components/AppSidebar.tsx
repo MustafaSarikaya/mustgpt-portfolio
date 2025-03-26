@@ -52,8 +52,8 @@ export function AppSidebar() {
         },
     ];
 
-    return <Sidebar className="border-none">
-        <SidebarContent className="min-w-15vw bg-primary-dark">
+    return <Sidebar className="border-none fixed z-50">
+        <SidebarContent className="min-w-[250px] md:min-w-15vw bg-primary-dark">
             {isActive && (
                 <div className="flex justify-start items-center pt-6 pb-2 px-6">
                     <SidebarTrigger />

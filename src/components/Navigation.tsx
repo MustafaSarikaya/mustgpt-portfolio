@@ -10,7 +10,7 @@ const Navigation = () => {
   const isSidebarActive = state === "expanded";
 
   return (
-    <nav className="top-0 left-0 right-0 pt-6 pb-2 px-6 bg-primary">
+    <nav className="fixed top-0 left-0 right-0 z-40 pt-6 pb-2 px-6 bg-primary">
       <div className="container mx-auto flex justify-between items-start">
         <div className="flex items-center gap-6">
           {!isSidebarActive && <SidebarTrigger />}
@@ -19,7 +19,7 @@ const Navigation = () => {
           </Link>
         </div>
         <div className="flex items-center gap-6">
-          <div className="flex items-center gap-4">
+          <div className="hidden sm:flex items-center gap-4">
             <a href={getText('navigation.links.github')} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-accent transition-colors">
               <Github className="w-6 h-6" />
             </a>
