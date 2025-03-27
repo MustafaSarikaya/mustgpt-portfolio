@@ -1,15 +1,13 @@
 import { AppSidebar } from "./AppSidebar";
-import React, { useEffect, useState } from "react";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
-import { SearchBox } from "./SearchBox";
-import { useSidebar } from "./ui/sidebar";
+import React from "react";
+
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
+
 
   return (
     <div className="min-h-screen bg-primary flex flex-row w-full">
@@ -19,10 +17,10 @@ const Layout = ({ children }: LayoutProps) => {
       </div>
 
       {/* Main Content - Add padding bottom to create space for fixed SearchBox */}
-      <main className="flex flex-grow w-full overflow-y-auto" >
+      
+      <main className="flex flex-grow w-full overflow-y-auto">
         {children}
       </main>
-      
     </div>
   );
 };
