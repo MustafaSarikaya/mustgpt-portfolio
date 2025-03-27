@@ -5,7 +5,7 @@ import { getText } from "@/utils/dictionary";
 export function MainFlow({
   children,
 }) {
-  return <div className="flex flex-col justify-center items-center bg-primary w-full">
+  return <div className="flex flex-col items-center bg-primary w-full">
     {/* Navigation */}
     <Navigation />
 
