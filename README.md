@@ -6,7 +6,6 @@ This project is a portfolio website built using modern web technologies. It show
 
 ## Tech Stack
 
-- [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://react.dev/)
 - [Shadcn UI](https://ui.shadcn.com/)
