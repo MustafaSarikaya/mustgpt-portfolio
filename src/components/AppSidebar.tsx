@@ -1,13 +1,13 @@
 import React from "react";
-import { 
-    Sidebar, 
-    SidebarContent, 
-    SidebarGroup, 
-    SidebarGroupLabel, 
-    SidebarMenuItem, 
-    SidebarMenuButton, 
-    SidebarMenu, 
-    SidebarRail, 
+import {
+    Sidebar,
+    SidebarContent,
+    SidebarGroup,
+    SidebarGroupLabel,
+    SidebarMenuItem,
+    SidebarMenuButton,
+    SidebarMenu,
+    SidebarRail,
     SidebarFooter,
     SidebarTrigger,
     useSidebar
@@ -20,7 +20,7 @@ import Footer from "./Footer";
 export function AppSidebar() {
     const location = useLocation();
     const { state } = useSidebar();
-    const isActive = state === "expanded";
+    const isActive = state === "expanded" || window.innerWidth < 768;
 
     const testimonials = [
         {
