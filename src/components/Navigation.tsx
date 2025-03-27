@@ -20,7 +20,12 @@ const Navigation = () => {
     <nav className="fixed md:relative top-0 pt-6 pb-2 px-6 bg-primary w-full">
       <div className="flex flex-row justify-between items-start">
         <div className="flex items-center gap-6">
-          {!isSidebarActive && <SidebarTrigger />}
+          <div className="block md:hidden">
+            <SidebarTrigger />
+          </div>
+          <div className="hidden md:block">
+            {!isSidebarActive && <SidebarTrigger />}
+          </div>
           <Link to="/" className="text-black font-semibold text-xl hover:text-accent transition-colors">
             {getText('navigation.brand')}
           </Link>
