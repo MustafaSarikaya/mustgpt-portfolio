@@ -18,20 +18,11 @@ const Layout = ({ children }: LayoutProps) => {
         <AppSidebar />
       </div>
 
-      {/* Main Content Area */}
-      <div className="flex flex-col flex-grow w-full">
-        {/* Navigation */}
-        <div className="w-full">
-          <Navigation />
-        </div>
-
-        {/* Main Content - Add padding bottom to create space for fixed SearchBox */}
-        <main className="flex flex-grow w-full overflow-y-auto" >
-          {children}
-        </main>
-
-        
-      </div>
+      {/* Main Content - Add padding bottom to create space for fixed SearchBox */}
+      <main className="flex flex-grow w-full overflow-y-auto" >
+        {children}
+      </main>
+      
     </div>
   );
 };
