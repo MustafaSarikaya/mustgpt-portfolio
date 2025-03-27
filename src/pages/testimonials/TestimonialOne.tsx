@@ -3,7 +3,7 @@ import { getText } from '../../utils/dictionary';
 
 const TestimonialOne = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-white">
+    <div className="bg-gradient-to-b bg-primary">
       <ChatFlow title={getText('pages.testimonials.one.title')}>
         <div className="space-y-6">
           <p className="text-lg text-gray-700">
