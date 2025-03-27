@@ -1,12 +1,11 @@
 import { SearchBox } from "./SearchBox";
 import Navigation from "./Navigation";
+import { getText } from "@/utils/dictionary";
 
 export function MainFlow({
-  title,
   children,
-  getText
 }) {
-  return <div className="flex flex-col justify-center items-center bg-primary w-full py-20">
+  return <div className="flex flex-col justify-center items-center bg-primary w-full">
     {/* Navigation */}
     <Navigation />
 

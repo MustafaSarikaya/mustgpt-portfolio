@@ -1,8 +1,5 @@
 import { MainFlow } from './MainFlow';
 import React from "react";
-import { useLocation } from "react-router-dom";
-import { SearchBox } from "./SearchBox";
-import { getText } from "@/utils/dictionary";
 
 interface ChatFlowProps {
   children: React.ReactNode;
@@ -13,12 +10,11 @@ export function ChatFlow({
   children,
   title
 }) {
-  const location = useLocation();
-  const isIndexPage = location.pathname === "/" || location.pathname === "/index";
+
 
   return (
-    <MainFlow title={title} isIndexPage={isIndexPage} getText={getText}  >
-      <div className="px-4 sm:px-6 flex flex-col">
+    <MainFlow >
+      <div className="px-4 sm:px-6 flex flex-col pt-[100px] pb-20 md:pt-10">
         {
         /* User Message */
       }
