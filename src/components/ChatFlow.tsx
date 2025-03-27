@@ -14,7 +14,7 @@ export function ChatFlow({
 
   return (
     <MainFlow >
-      <div className="px-4 sm:px-6 flex flex-col pt-[100px] pb-20 md:pt-10">
+      <div className="px-4 sm:px-6 flex flex-col justify-center pt-[100px] pb-20 md:pt-10 h-full">
         {
         /* User Message */
       }
